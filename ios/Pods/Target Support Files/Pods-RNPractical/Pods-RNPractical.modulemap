@@ -1,0 +1,6 @@
+module Pods_RNPractical {
+  umbrella header "Pods-RNPractical-umbrella.h"
+
+  export *
+  module * { export * }
+}

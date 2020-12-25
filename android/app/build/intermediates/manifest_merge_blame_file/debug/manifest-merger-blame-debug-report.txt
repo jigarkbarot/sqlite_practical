@@ -1,0 +1,89 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.rnpractical"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="29" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/hoookedup6/Dropbox/My Mac (HoookedUp’s iMac)/Documents/Jigar/Demo/RNPractical/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/hoookedup6/Dropbox/My Mac (HoookedUp’s iMac)/Documents/Jigar/Demo/RNPractical/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/hoookedup6/Dropbox/My Mac (HoookedUp’s iMac)/Documents/Jigar/Demo/RNPractical/android/app/src/main/AndroidManifest.xml:4:5-67
+12-->/Users/hoookedup6/Dropbox/My Mac (HoookedUp’s iMac)/Documents/Jigar/Demo/RNPractical/android/app/src/main/AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.CAMERA" />
+13-->/Users/hoookedup6/Dropbox/My Mac (HoookedUp’s iMac)/Documents/Jigar/Demo/RNPractical/android/app/src/main/AndroidManifest.xml:5:5-65
+13-->/Users/hoookedup6/Dropbox/My Mac (HoookedUp’s iMac)/Documents/Jigar/Demo/RNPractical/android/app/src/main/AndroidManifest.xml:5:22-62
+14    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+14-->[com.facebook.flipper:flipper:0.54.0] /Users/hoookedup6/.gradle/caches/transforms-2/files-2.1/75238863e6b45aca4b9c498f6fefb9f4/flipper-0.54.0/AndroidManifest.xml:16:5-76
+14-->[com.facebook.flipper:flipper:0.54.0] /Users/hoookedup6/.gradle/caches/transforms-2/files-2.1/75238863e6b45aca4b9c498f6fefb9f4/flipper-0.54.0/AndroidManifest.xml:16:22-73
+15
+16    <application
+16-->/Users/hoookedup6/Dropbox/My Mac (HoookedUp’s iMac)/Documents/Jigar/Demo/RNPractical/android/app/src/main/AndroidManifest.xml:7:5-26:19
+17        android:name="com.rnpractical.MainApplication"
+17-->/Users/hoookedup6/Dropbox/My Mac (HoookedUp’s iMac)/Documents/Jigar/Demo/RNPractical/android/app/src/main/AndroidManifest.xml:8:7-38
+18        android:allowBackup="false"
+18-->/Users/hoookedup6/Dropbox/My Mac (HoookedUp’s iMac)/Documents/Jigar/Demo/RNPractical/android/app/src/main/AndroidManifest.xml:12:7-34
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.3.1] /Users/hoookedup6/.gradle/caches/transforms-2/files-2.1/2d28154e54ca207a313bfde4a5999c2c/core-1.3.1/AndroidManifest.xml:24:18-86
+20        android:debuggable="true"
+21        android:icon="@mipmap/ic_launcher"
+21-->/Users/hoookedup6/Dropbox/My Mac (HoookedUp’s iMac)/Documents/Jigar/Demo/RNPractical/android/app/src/main/AndroidManifest.xml:10:7-41
+22        android:label="@string/app_name"
+22-->/Users/hoookedup6/Dropbox/My Mac (HoookedUp’s iMac)/Documents/Jigar/Demo/RNPractical/android/app/src/main/AndroidManifest.xml:9:7-39
+23        android:roundIcon="@mipmap/ic_launcher_round"
+23-->/Users/hoookedup6/Dropbox/My Mac (HoookedUp’s iMac)/Documents/Jigar/Demo/RNPractical/android/app/src/main/AndroidManifest.xml:11:7-52
+24        android:theme="@style/AppTheme"
+24-->/Users/hoookedup6/Dropbox/My Mac (HoookedUp’s iMac)/Documents/Jigar/Demo/RNPractical/android/app/src/main/AndroidManifest.xml:13:7-38
+25        android:usesCleartextTraffic="true" >
+25-->/Users/hoookedup6/Dropbox/My Mac (HoookedUp’s iMac)/Documents/Jigar/Demo/RNPractical/android/app/src/debug/AndroidManifest.xml:7:18-53
+26        <activity
+26-->/Users/hoookedup6/Dropbox/My Mac (HoookedUp’s iMac)/Documents/Jigar/Demo/RNPractical/android/app/src/main/AndroidManifest.xml:14:7-24:18
+27            android:name="com.rnpractical.MainActivity"
+27-->/Users/hoookedup6/Dropbox/My Mac (HoookedUp’s iMac)/Documents/Jigar/Demo/RNPractical/android/app/src/main/AndroidManifest.xml:15:9-37
+28            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+28-->/Users/hoookedup6/Dropbox/My Mac (HoookedUp’s iMac)/Documents/Jigar/Demo/RNPractical/android/app/src/main/AndroidManifest.xml:17:9-86
+29            android:label="@string/app_name"
+29-->/Users/hoookedup6/Dropbox/My Mac (HoookedUp’s iMac)/Documents/Jigar/Demo/RNPractical/android/app/src/main/AndroidManifest.xml:16:9-41
+30            android:launchMode="singleTask"
+30-->/Users/hoookedup6/Dropbox/My Mac (HoookedUp’s iMac)/Documents/Jigar/Demo/RNPractical/android/app/src/main/AndroidManifest.xml:18:9-40
+31            android:windowSoftInputMode="adjustResize" >
+31-->/Users/hoookedup6/Dropbox/My Mac (HoookedUp’s iMac)/Documents/Jigar/Demo/RNPractical/android/app/src/main/AndroidManifest.xml:19:9-51
+32            <intent-filter>
+32-->/Users/hoookedup6/Dropbox/My Mac (HoookedUp’s iMac)/Documents/Jigar/Demo/RNPractical/android/app/src/main/AndroidManifest.xml:20:9-23:25
+33                <action android:name="android.intent.action.MAIN" />
+33-->/Users/hoookedup6/Dropbox/My Mac (HoookedUp’s iMac)/Documents/Jigar/Demo/RNPractical/android/app/src/main/AndroidManifest.xml:21:13-65
+33-->/Users/hoookedup6/Dropbox/My Mac (HoookedUp’s iMac)/Documents/Jigar/Demo/RNPractical/android/app/src/main/AndroidManifest.xml:21:21-62
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->/Users/hoookedup6/Dropbox/My Mac (HoookedUp’s iMac)/Documents/Jigar/Demo/RNPractical/android/app/src/main/AndroidManifest.xml:22:13-73
+35-->/Users/hoookedup6/Dropbox/My Mac (HoookedUp’s iMac)/Documents/Jigar/Demo/RNPractical/android/app/src/main/AndroidManifest.xml:22:23-70
+36            </intent-filter>
+37        </activity>
+38        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+38-->/Users/hoookedup6/Dropbox/My Mac (HoookedUp’s iMac)/Documents/Jigar/Demo/RNPractical/android/app/src/main/AndroidManifest.xml:25:7-84
+38-->/Users/hoookedup6/Dropbox/My Mac (HoookedUp’s iMac)/Documents/Jigar/Demo/RNPractical/android/app/src/main/AndroidManifest.xml:25:17-81
+39
+40        <provider
+40-->[:react-native-image-picker] /Users/hoookedup6/Dropbox/My Mac (HoookedUp’s iMac)/Documents/Jigar/Demo/RNPractical/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-20:20
+41            android:name="com.imagepicker.ImagePickerProvider"
+41-->[:react-native-image-picker] /Users/hoookedup6/Dropbox/My Mac (HoookedUp’s iMac)/Documents/Jigar/Demo/RNPractical/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-63
+42            android:authorities="com.rnpractical.imagepickerprovider"
+42-->[:react-native-image-picker] /Users/hoookedup6/Dropbox/My Mac (HoookedUp’s iMac)/Documents/Jigar/Demo/RNPractical/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-71
+43            android:exported="false"
+43-->[:react-native-image-picker] /Users/hoookedup6/Dropbox/My Mac (HoookedUp’s iMac)/Documents/Jigar/Demo/RNPractical/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-37
+44            android:grantUriPermissions="true" >
+44-->[:react-native-image-picker] /Users/hoookedup6/Dropbox/My Mac (HoookedUp’s iMac)/Documents/Jigar/Demo/RNPractical/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-47
+45            <meta-data
+45-->[:react-native-image-picker] /Users/hoookedup6/Dropbox/My Mac (HoookedUp’s iMac)/Documents/Jigar/Demo/RNPractical/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-19:70
+46                android:name="android.support.FILE_PROVIDER_PATHS"
+46-->[:react-native-image-picker] /Users/hoookedup6/Dropbox/My Mac (HoookedUp’s iMac)/Documents/Jigar/Demo/RNPractical/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-67
+47                android:resource="@xml/imagepicker_provider_paths" />
+47-->[:react-native-image-picker] /Users/hoookedup6/Dropbox/My Mac (HoookedUp’s iMac)/Documents/Jigar/Demo/RNPractical/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:17-67
+48        </provider>
+49    </application>
+50
+51</manifest>
